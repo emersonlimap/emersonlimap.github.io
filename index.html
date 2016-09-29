@@ -1,0 +1,814 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.fuzi.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 01:21:12 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="publisher" content="Studio Lhama">
+<meta name="description" content="Primeiro artista da família Panda Records, a banda Fuzi Formada em 2008 por três amigos de Pindamonhangaba (SP), Emerson, Zek e Felipe, a banda atualmente vive na capital paulista e aposta em 2012 como o grande ano de sua carreira.">
+<meta name="viewport" content="width=1800" />
+
+<title>::: FUZI :::</title>
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+<!--Imagem Pequena-->
+<link rel="image_src" type="image/jpeg"  href="imagem2.jpg" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+ <!--[if IE]>
+      <script border ="0" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="css/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<link href="skin/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" border ="0" src="js/jquery.jplayer.min.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+    $("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus1.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_2").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_1"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Intro";
+			window.location = "#" + myHashLink;	
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Intro']);
+	});
+
+
+
+
+	$("#jquery_jplayer_2").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus2.mp3"
+			});
+			
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_3").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_2"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Alice";
+			window.location = "#" + myHashLink;	
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Alice']);
+	});
+	
+	
+	$("#jquery_jplayer_3").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus3.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_4").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_3"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Momentos Difíceis";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Momentos Difíceis']);
+	});
+	
+	
+	$("#jquery_jplayer_4").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus4.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_5").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_4"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Neural";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Neural']);
+	});
+	
+	$("#jquery_jplayer_5").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus5.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_6").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_5"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Quanto tempo você vai durar?";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Quanto tempo vai durar?']);
+	});
+	
+	
+	$("#jquery_jplayer_6").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus6.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_7").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_6"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Despertar";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Despertar']);
+	});
+	
+	
+	
+	$("#jquery_jplayer_7").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus7.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_8").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_7"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Como Você Funciona";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Como Você Funciona']);
+	});
+	
+	
+	
+	$("#jquery_jplayer_8").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus8.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_9").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_8"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Nada Entre Nós";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Nada Entre nós']);
+	});
+	
+	
+	$("#jquery_jplayer_9").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "musicas/mus9.mp3"
+			});
+		},
+		ended: function (event) {
+			$("#jquery_jplayer_1").jPlayer("play", 0);
+		},
+		preload: "none",
+		swfPath: "js",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_interface_9"
+	})
+	.bind($.jPlayer.event.play, function() { // Using a jPlayer event to avoid both jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+			var myHashLink = "Pa Para Pá";
+			window.location = "#" + myHashLink;
+			_gaq.push(['_trackPageview', location.pathname + location.search + '#Pa Para Pá']);
+	});
+	
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25919797-1']);
+  _gaq.push(['_setDomainName', 'fuzi.com.br']);
+  _gaq.push(['_trackPageview', location.pathname + location.search + location.hash]);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div id="Site">
+	
+	<div id="Topo">
+        <div id="Selos">
+            <a href="http://www.outfitters.com.br/macbeth" target="_blank"><img alt="Outfitters Macbeth" src="img/macbeth2.png" /></a>
+            <a href="https://www.facebook.com/EstudioRIFF" target="_blank"><img alt="Estúdio RIFF" src="img/log_riff.png" /></a>
+            <a href="https://www.facebook.com/PandaRecords" target="_blank"><img alt="Panda Records"  src="img/logo_panda_recs.png" /></a>
+        </div>
+        
+        <div id="Social"><a href="http://www.facebook.com/fuzirock"><img src="img/log_facebook.png" /></a> <a href="http://www.twitter.com/fuzirock" target="_blank"><img src="img/log_twitter.png" /></a> <a href="http://soundcloud.com/fuzirock/" target="_blank"><img src="img/logo_soundcloud.png" /></a> <a href="http://www.youtube.com/fuzistereo" target="_blank"><img src="img/btyoutube.png" /></a></div>
+        <div id="Logo"><img src="img/logo_fuzi.png" /></div>
+    </div>
+	
+    
+    <div id="PontodeFusao">
+    	<div id="TitPontodeFusao">
+        	<span style="color: #B25859;
+    font-size: 42px;">ESCUTE AGORA!</span><br>
+            <span style="color: #70C9C2;
+    font-size: 67px;">PONTO DE FUSÃO</span>
+        </div>
+        <div id="ArtePontodeFusao"><img src="img/arteprincipal.png" /></div>
+        <div id="Musicas">
+        	<div id="Musica1">
+            
+            
+            	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_1" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                        <div id="NameMus">INTRO</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Intro+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                    
+            	
+            </div>
+            <div id="Musica2">
+            	
+                
+                
+                <div id="jquery_jplayer_2" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_2" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">ALICE</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Alice+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-alice%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-alice" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-alice%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-alice" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                
+                
+                
+            </div>
+            <div id="Musica3">
+            
+            
+            	<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_3" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">MOMENTOS DIFÍCEIS</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Momentos+dif%C3%ADceis+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-momentos-dif-ceis%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-momentos-dif-ceis" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-momentos-dif-ceis%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-momentos-dif-ceis" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+            
+            
+            
+            </div>
+            <div id="Musica4">
+            		
+                    
+                    <div id="jquery_jplayer_4" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_4" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">NEURAL</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Neural+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-neural%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-neural" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-neural%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-neural" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                    
+                    
+            </div>
+            <div id="Musica5">
+            
+            		<div id="jquery_jplayer_5" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_5" class="jp-interface">
+                                    <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                   <div id="NameMus">QUANTO TEMPO VOCÊ VAI DURAR?</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Quanto+Tempo+Voc%C3%AA+Vai+Durar+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-quanto-tempo-voc-vai%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-quanto-tempo-voc-vai" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-quanto-tempo-voc-vai%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-quanto-tempo-voc-vai" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+            
+            </div>
+            <div id="Musica6">
+            	
+                
+                <div id="jquery_jplayer_6" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_6" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">DESPERTAR</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Despertar+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-despertar%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-despertar" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-despertar%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-despertar" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                
+                
+            </div>
+            <div id="Musica7">
+            	
+                
+                <div id="jquery_jplayer_7" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_7" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">COMO VOCÊ FUNCIONA</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Como+Voc%C3%AA+Funciona+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-como-voc-funciona-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-como-voc-funciona-1" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-como-voc-funciona-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-como-voc-funciona-1" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                
+                
+            </div>
+            <div id="Musica8">
+            
+            		<div id="jquery_jplayer_8" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_8" class="jp-interface">
+                                   <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                   <div id="NameMus">NADA ENTRE NÓS</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Nada+Entre+N%C3%B3s+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-nada-entre-n-s-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-nada-entre-n-s-1" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-nada-entre-n-s-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-nada-entre-n-s-1" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+            
+            </div>
+            <div id="Musica9">
+            	
+                
+                <div id="jquery_jplayer_9" class="jp-jplayer"></div>
+
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_9" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">PA PARA PÁ</div>
+                                    
+                                    <div id="MusicComp">
+                                        <div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Pa+Para+P%C3%A1+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-pa-para-p-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-pa-para-p-1" target="_blank"><img src="img/mus_tweet.png" /></a></div>
+                                        <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-pa-para-p-1%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-pa-para-p-1" target="_blank"><img src="img/musface.png" /></a></div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+                
+                
+            </div>
+        </div>
+        <div id="CompartilheAlbum">
+        	<div id="TitCompartilhar">COMPARTILHAR O ÁLBUM COMPLETO</div>
+            <div id="CompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Fsets%2Fponto-de-fus-o%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Fsets%2Fponto-de-fus-o" target="_blank"><img src="img/compfacebook.png" /></a></div>
+            <div id="CompTwit"><a href="http://www.paguecomtweet.com.br/ptweet/?id=73d12de7c23f66de5e427358a35bd1c5" target="_blank"><img src="img/comptwitter.png" /></a></div>
+        </div>
+        <br>
+        <div id="Download" style="text-align: center;">
+        	<div id="TitDownload"><img src="img/downloadcomo.png" /></div>
+            <div id="DownFace" style="align: center;"><a href="http://www.paguecomtweet.com.br/ptweet/?id=8603f1877aaee4a647f2661c2c711c23" target="_blank"><img src="img/downface2.png" /></a></div>
+        </div>
+        <div id="ClipeAlice">
+    	<div id="OVideo">
+
+    <iframe width="709" height="399" src="http://www.youtube.com/embed/WNAGkfjI9UU" frameborder="0" allowfullscreen></iframe>        </div>
+        
+        <div id="FundoVideo">
+        <img src="img/bg_video_paparapa2.png" />
+        </div>
+    
+    </div>
+    
+    
+    <div id="ClipeAlice">
+    	<div id="OVideo">
+        <iframe width="710" height="391" src="http://www.youtube.com/embed/LW-eQ4HykTg" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div id="FundoVideo">
+        <img src="img/bg_video_alice.png" />
+        </div>
+    
+    </div>
+        
+        
+        
+        <div id="PapeldeParede">
+        	<div id="TitPapeldeParede">PAPEL DE PAREDE</div>
+            <div id="ImgPapeldeParede"><img src="img/papeldeparede.png" /></div>
+            <div id="ResolPapeldeParede"><a href="img/wall_1920_1200.jpg" target="_blank">1920 x 1200</a> | <a href="img/wall_1280_1024.jpg" target="_blank">1280 x 1024</a> | <a href="img/wall_1280_960.jpg" target="_blank">1280 x 960</a> | <a href="img/wall_1024_768.jpg" target="_blank">1024 x 768</a></div>
+        </div>
+        <div id="EncartePtFus">
+        	<a href="img/1_capacortada.jpg" class="group2" title="Capa Caixa Vazada" ><img src="img/encarte_thumb.png" /></a>
+            <a href="img/2_capainterna.jpg" class="group2" title="Capa Encarte" ></a>
+            <a href="img/3_contracapa.jpg" class="group2" title="Contra Capa" ></a>
+            <a href="img/4_fichatecnica.jpg" class="group2" title="Ficha Técnica" ></a>
+           	<a href="img/5_alice.jpg" class="group2" title="Alice" ></a>
+            <a href="img/6_momentosdificeis.jpg" class="group2" title="Momentos Difíceis" ></a>
+            <a href="img/7_neural.jpg" class="group2" title="Neural" ></a>
+            <a href="img/8_9_quantotempo_despertar.jpg" class="group2" title="Quanto tempo você vai durar e Despertar" ></a>
+            <a href="img/10_comovocefunciona.jpg" class="group2" title="Como você funciona" ></a>
+            <a href="img/11_nadaentrenos.jpg" class="group2" title="Nada entre nós" ></a>
+            <a href="img/12_paparapa.jpg" class="group2" title="Pa para Pá" ></a>
+             <a href="img/13_agradecimentos.jpg" class="group2" title="Agradecimentos" ></a>
+            
+        </div>
+    </div>
+    
+    
+    
+    <div id="Fotao">
+    	<img src="img/fuzi2014_01.png" />
+    </div>
+    
+    
+    <div id="ReleaseFuz">
+    	<div id="TextReleaseFuz">
+            <p>Após seu último lançamento, o álbum “Ponto de Fusão”, a banda Fuzi obteve várias conquistas: Teve seu primeiro trabalho bancado por seus fãs, em um projeto de financiamento coletivo lançado no site “Catarse”; produziu 2 videoclipes, os quais foram lançados em canais de TV, sendo uma participação em programa de entrevista na MTV e outra na MIX TV. Notas e resenhas em portais online que são considerados referências no Brasil dentro do segmento rock (Zona Punk, Punknet, Undersound, Passagem de Som, Vale Punk); conquistou o patrocínio da marca de roupas e tênis “Macbeth” (que pertence ao “Tom DeLonge”, guitarrista da banda Blink 182) e atualmente é a única banda no Brasil a ser patrocinada pela mesma.</p>
+            
+            <p>Teve sua música de trabalho (“Alice”) selecionada entre inúmeras outras para tocar logo no primeiro “Temos Vagas” (programa voltado para bandas independentes da “89 FM - A Rádio Rock”) e teve a mesma música inserida na programação da rádio “Cidade Web Rock”, que acaba de voltar às ondas FM no Rio de Janeiro, como “Rádio Cidade” (a “Rádio Rock” carioca). </p>
+
+            <p>Formada em 2008, a banda de Pindamonhangaba (SP), é um “Power Trio” composto por Emerson Lima (guitarra e vocal), Felipe Chinaqui (baixo) e Rodrigo Salvadori (bateria). A banda atualmente vive na capital paulista e, com a nova formação, entra em 2014 com a energia renovada e com o pé direito, dando início a uma pré-produção forte e em ritmo sólido com o mesmo produtor dos primeiros trabalhos, Sérgio Soffiatti, tendo planos para alçar vôos mais altos e obter conquistas ainda maiores muito em breve.
+
+        	<!--<p>Atualmente membro da família "Panda Records", a banda Fuzi Formada em 2008 por três amigos de Pindamonhangaba (SP), Emerson, Zek e Felipe, a banda atualmente vive na capital paulista e aposta em 2012 como o grande ano de sua carreira.</p>
+
+            <p>Para tal, trabalharam ao lado do produtor Sergio Soffiati durante o ano de 2011 para a gravação de seu primeiro álbum. "Ele é muito profissional e tem bom gosto musical para ajudar na criação de riffs e arranjos. Ele teve participação nas composições e nos ensinou muito", garante o vocalista e guitarrista Emerson, sobre a qualidade do produtor.</p>
+    
+            <p>A bem trabalhada pré-produção do álbum resultou em um trabalho rápido no estúdio. As músicas foram gravadas em apenas uma semana, no estúdio O Grito, em São Paulo. Ponto de Fusão contará com cinco músicas inéditas do grupo e outras três do EP Como Você Funciona, lançado em 2009, remasterizadas também por Sergio Sofiatti. A banda ainda conta com o apoio da produtora SOUMAB, parceira na produção executiva do grupo no estado de São Paulo.</p>
+    
+            <p>Antes mesmo do lançamento de seu primeiro full álbum, a banda Fuzi já chamou a atenção de gente renomada no cenário rock nacional como César Ovalle (fotógrafo do Nx Zero), Sonrisal (guitarrista do Hateen), Pitty (cantora, através do programa de rádio Transamérica Pop) e muitos outros (veja todos em http://www.youtube.com/fuzistereo).</p> -->
+        </div>
+        
+        <div id="ReleaseLogo">
+        	<img src="img/logao_fuzi.png" />
+        </div>
+    </div>
+    
+    
+    <div id="MidiaFuz">
+    	<div id="ImgMidiaFotAsas">
+        	<img src="img/arte_nadaentrenos.png" />
+        </div>
+        
+        <div id="MidiaFotos">
+        	<div id="TitFotos">FOTOS</div>
+            <div id="ThumbsFots">
+            	<a class="group1" title="Crédito: César Ovalle" href="img/fotog1.jpg"><img src="img/fot1.png" /></a>
+                <a href="img/fotog2.jpg" class="group1" title="Crédito: César Ovalle" ><img src="img/fot2.png" /></a>
+                <a href="img/fotog3.jpg" class="group1" title="Crédito: César Ovalle" ><img src="img/fot3.png" /></a>
+                <a href="img/fotog4.jpg" class="group1" title="Crédito: César Ovalle" ><img src="img/fot4.png" /></a>
+                <a href="img/fotog5.jpg" class="group1" title="Crédito: César Ovalle" ><img src="img/fot5.png" /></a>
+            </div>
+        </div>
+        
+        <div id="MakingofBot">
+        	 <a class='youtube' href="http://www.youtube.com/embed/BoaCDb-GYTw?rel=0&amp;wmode=transparent" title="Making off Fotos Promo com César Ovalle"><img src="img/bt_makingof.png" /></a> 
+        </div>
+        
+        
+        <div id="MidiaQuemEscuta">
+        	<div id="TitQuem">QUEM ESCUTA?</div>
+            <div id="ThumbsQuem">
+            	<link rel="stylesheet" href="js/colorbox.css" />
+	<script src="js/jquery.colorbox.js"></script>	
+    
+    <script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:360});
+			$(".group1").colorbox({rel:'group1'});
+			$(".group2").colorbox({rel:'group2'});
+		});
+	</script>	
+           <a class='youtube' href="http://www.youtube.com/embed/_p4Ui1rrtVA?rel=0&amp;wmode=transparent" title="Sonrisal - Hateen"><img src="img/sonrisal.png" /></a>             
+
+                <a class='youtube' href="http://www.youtube.com/embed/wppVnOym5Dg?rel=0&amp;wmode=transparent" title="César Ovalle - Fotógrafo"><img src="img/cezinha.png" /></a>
+                <a class='youtube' href="http://www.youtube.com/embed/v_9xf9_g1bc?rel=0&amp;wmode=transparent" title="Nene Altro - Dance of Days"><img src="img/nene.png" /></a>
+                <a class='youtube' href="http://www.youtube.com/embed/q4JwreKnwEQ?rel=0&amp;wmode=transparent" title="Cris Kerber, da rádio 98,3fm de União da Vitória | PR"><img src="img/kriskerber.png" /></a>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div id="OQueFalam">
+    	<img src="img/oquefalam.png" />
+    </div>
+    <div id="Videos">
+    	<div id="TitProxShows">VÍDEOS</div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a class='youtube' href="http://www.youtube.com/embed/u7-QpKojnRQ?rel=0&amp;wmode=transparent" title="Momentos Difíceis - Hangar 110 - Lançamento Obrigado Tempestade - Hateen"><img src="img/video1.png" /></a></td>
+    <td><a class='youtube' href="http://www.youtube.com/embed/xPqpXeknfuo?rel=0&amp;wmode=transparent" title="Alice - Hangar 110 - Lançamento Obrigado Tempestade - Hateen"><img src="img/video2.png" /></a></td>
+    <td><a class='youtube' href="http://www.youtube.com/embed/C89hZMmi1Ew?rel=0&amp;wmode=transparent" title="Nada Entre Nós - Taubaté"><img src="img/video3.png" /></a></td>
+    <td><a class='youtube' href="http://www.youtube.com/embed/DfJZdFBUatU?rel=0&amp;wmode=transparent" title="Pa para pá - Hangar 110 - Lançamento Obrigado Tempestade - Hateen"><img src="img/video4.png" /></a></td>
+   	<td><a class='youtube' href="http://www.youtube.com/embed/hBpjFHfRBX8?rel=0&amp;wmode=transparent" title="TRIO-ELÉTRICO NA AV. PAULISTA - MOVIMENTO SUPERAÇÃO"><img src="img/video5.png" /></a></td>
+  </tr>
+</table>
+    </div>
+    
+    <div id="Agenda">
+    
+    <div id="FotAlice">
+        	<img src="img/alice.png" />
+        </div>
+    	
+    	<div id="AAgenda">
+            
+            <div id="ProxShows">
+                <div id="TitProxShows">AGENDA</div>
+                <div id="Data">
+                <br />
+    			</div>
+            </div>
+            
+            <div id="AntShows">
+                
+                <div id="Data">
+                <b>2015</b>
+                <br />
+                19/06/2015 - PINDA/SP - FESTIVAL DE MÚSICA DA JUVENTUDE<br />
+                11/06/2015 - COTIA/SP - FUZI e FOUR FIRES (Foo Fighters Cover)<br />
+                23/05/2015 - PINDA/SP - FUZI e JHONY JAHÚ<br />
+                <br />
+				<b>2014</b>
+				<br />
+                12/12/2014 - TAUBATÉ/SP - FUZI, DEAD FISH, ANZOL e LUNÁTICA<br />
+                21/10/2014 - SHOW ONLINE NO CLAP ME<br>
+                13/09/2014 - CAÇAPAVA/SP<br>
+                09/08/2014 - CRUZEIRO/SP - Mandala<br>
+                15/08/2014 - PINDA/SP - Fuzi e Dead Fish<br>
+                16/04/2014 - PINDA/SP - 11 Aniversário do Programa Escola da Família<br>
+                20/04/2014 - PINDA/SP - Bigorna Tour<br>
+                22/03/2014 - GUARATINGUETÁ/SP - Grito Rock<br>
+            	<br />
+				<b>2013</b>
+				<br />                
+    			18/01/2013 - CAMPINAS/SP - Fuzi toca Green Day<br>
+                20/01/2013 - TAUBATÉ/SP - Show de encerrament do tributo ao Green Day<br>
+                18/08/2013 - SÃO JOSÉ DOS CAMPOS/SP - Expo Vale Tattoo<br>
+                14/09/2013 - TAUBATÉ/SP - Show com Dance of Days<br>
+                20/09/2013 - SÃO PAULO/SP - Hangar110 - Show com Reação em Cadeia<br>
+                23/11/2013 - PINDA/SP - Hangar110 - Lançamento do álbum da banda Anzol<br>                
+                </div>
+                
+                <div id="Data">
+        		<br />
+				<b>2012</b>
+				<br />                
+				13/01/2012 - PINDA/SP - Cervejaria Óbvio<br>
+				21/01/2012 - SÃO PAULO/SP - Lançamento do EP do SUGAR KANE<br>
+				28/01/2012 - SÃO JOSÉ DOS CAMPOS/SP - Pré-Lançamento do disco "Ponto de Fusão" com PEARL JAM(cover)<br>
+				24/02/2012 - TAUBATÉ/SP - FUZI, KM110 e BLASTA ROCK - ÁPICE STUDIO BAR<br>
+				10/03/2012 - TAUBATÉ/SP - DEAD FISH + FUZI + ADITIVE + GALO DARVE + DRIVE IN + BANDAS - LANÇAMENTO OFICIAL DO ÁLBUM FÍSICO "PONTO DE FUSÃO"<br>
+				18/03/2012 - SÃO JOSÉ DOS CAMPOS/SP - Verão Revolução - Hocus Pocus<br>
+				22/03/2012 - SÃO JOSÉ DOS CAMPOS/SP - Dunluce Irish Pub<br>
+				13/04/2012 - PINDAMONHANGABA/SP - Cervejaria Óbvio<br>
+				14/04/2012 - SÃO PAULO/SP - Feira de Tecnologia "REATECH"<br>
+				15/04/2012 - CRUZEIRO/SP - Cruzeiro Underground Fest<br>
+				05/05/2012 - SÃO PAULO/SP - SUGAR KANE e FUZI - Hangar110<br>
+				06/05/2012 - SÃO PAULO/SP - Encontro de Música Independente (Show Acústico) - Hangar110<br>
+				12/05/2012 - TAUBATÉ/SP - FUZI, Atheros, Samset e Impacto Zero - Ápice Estúdio<br>
+				20/05/2012 - TAUBATÉ/SP - União das Tribos<br>
+				01/06/2012 - SÃO JOSÉ DOS CAMPOS/SP - Hocus Pocus<br>
+				22/07/2012 - SÃO PAULO/SP - Cerveja Azul<br>				
+				18/08/2012 - TAUBATÉ/SP - Brutal Rock Bar<br>				
+				19/08/2012 - SÃO PAULO/SP - Sonique SP<br>				
+				26/08/2012 - SÃO JOSÉ DOS CAMPOS/SP<br>				
+				14/09/2012 - PINDA/SP - FUZI toca GREEN DAY<br>
+				16/09/2012 - TAUBATÉ/SP - Show com Teco Martins (RANCORE)<br>
+				22/09/2012 - CRUZEIRO/SP - Fuzi toca GREEN DAY<br>
+				05/10/2012 - PINDA/SP<br>
+				07/10/2012 - TAUBATÉ/SP - Fuzi toca GREEN DAY<br>
+                14/10/2012 - SÃO JOSÉ DOS CAMPOS - Fuzi toca GREEN DAY<br>
+                18/11/2012 - CRUZEIRO - Fuzi, The Rednecks, Arcade e SexDrive<br>
+                25/11/2012 - TAUBATÉ - Projeto + AMOR POR FAVOR<br>
+				01/12/2012 - SÃO PAULO/SP - Movimento Superação<br>
+                02/12/2012 - SÃO JOSÉ DOS CAMPOS/SP - Hocus Pocus<br>
+                
+                
+				<br />
+				<b>2011</b>
+				<br />
+				16/12/2011 - Hangar110 - Lançamento do álbum "Obrigado Tempestade" - Hateen - SÃO PAULO/SP<br>
+				11/12/2011 - Festival de Verão - PINDA/SP<br>
+				10/12/2011 - República Music Hall - TAUBATÉ/SP<br>
+                03/12/2011 - Movimento SuperAção - SÃO PAULO/SP<br>
+                02/12/2011 - Cervejaria Óbvio  - PINDA/SP<br>
+				20/11/2011 - Cervejaria Óbvio – PINDA/SP<br>
+                02/11/2011 - Cervejaria Óbvio – PINDA/SP<br>
+            	22/10/2011 - Hocus Pocus - São José dos Campos - SP - ABERTURA MXPX<br>
+                15/10/2011 - ECO VIRADA CULTURAL - ECO BAR - PINDA/SP<br>
+                12/10/2011 - Hocus Pocus - São José dos Campos - SP<br>
+            	25/09/2011 - Pizzaria Santa Fé - São Paulo/SP<br>
+            	28/08/2011 - Cervejaria Óbvio – PINDA/SP<br>
+    			19/08/2011 - Hangar 110 – São Paulo/SP<br>
+				23/07/2011 - Projeto Caminho das Pedras – CEU BUTANTA - São Paulo/SP<br>
+                02/07/2011 - Republica Music Hall – Taubaté/SP<br>
+				15/05/2011 - Cervejaria Óbvio – PINDA/SP<br>
+				08/05/2011 - CRUZEIRO/SP<br>
+				07/05/2011 - SATTVA BORDÔ – São Paulo/SP<br>
+				30/04/2011 - TAUBATÉ/SP - Rua Juca Esteves, Centro<br>
+				24/04/2011 - CERVEJARIA ÓBVIO – PINDA/SP <br>
+				17/04/2011 - FEIRA REATECH – São Paulo/SP - Pav. Imigrantes<br>
+				20/03/2011 - 1° FESTIVAL CLUB – Sattva – São Paulo/SP<br>
+				20/03/2011 - SATTVA1 – São Paulo/SP<br>
+                26/02/2011 - SATTVA1 – São Paulo/SP
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    
+    <div id="ContatosFuz">
+		<div id="TitAntShows">CONTATO</div>
+    	<div id="ContatosPanda">Bruno Silveira (Panda)<br />CEL. (011) 97215-7515<br />bruno@pandarecords.com.br</div>
+        <div id="ContResdesFuz">@fuzirock - facebook.com/FuziRock</div> 
+    </div>
+    <br>    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="RodapeFuz">
+    	<!--<div id="FotoRodFuz"><img src="img/fuzi2014_012.png" /></div> !-->
+        <div id="LhamaLog"><a href="http://www.studiolhama.com.br/" target="_blank"><img src="img/lhama.png" /></a></div>
+    </div>
+    
+    
+</div>
+
+</body>
+
+<!-- Mirrored from www.fuzi.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 01:30:58 GMT -->
+</html>

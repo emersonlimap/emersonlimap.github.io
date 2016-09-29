@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'BigNoodleTitlingRegular';
+	src: url('big_noodle_titling-webfont.eot');
+	src: url('big_noodle_titling-webfontd41d.eot?#iefix') format('embedded-opentype'),
+		 url('big_noodle_titling-webfont.woff') format('woff'),
+		 url('big_noodle_titling-webfont.ttf') format('truetype'),
+		 url('big_noodle_titling-webfont.svg#BigNoodleTitlingRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+img{
+	border: none;
+	outline:none;
+}
+
+img a{
+	border: none;
+	outline:none;
+}
+
+a{
+	border: none;
+	outline:none;
+}
+
+a img{
+	border: none;
+	outline:none;
+}
+
+
+body{
+	background-image: url("../img/bg.jpg");
+    background-repeat: repeat;
+    font-family: 'BigNoodleTitlingRegular';
+    margin: 0 auto;
+	overflow-x:hidden;
+}
+
+#Site{
+    left: 50%;
+    margin-left: -502px;
+    position: absolute;
+    width: 1004px;
+}
+
+#Topo{}
+#Selos{
+	margin-left: 12px;
+    margin-top: 12px;
+    width: 450px;
+}
+#Social{
+	margin-left: 841px;
+    margin-top: -46px;
+    width: 163px;
+}
+#Logo{
+	margin-left: 331px;
+    margin-top: 11px;
+}
+
+
+
+#PontodeFusao{
+	margin-left: 29px;
+}
+#TitPontodeFusao{}
+#ArtePontodeFusao{
+	margin-left: 299px;
+    margin-top: -144px;
+}
+
+#NameMus{
+	color: #70C9C2;
+    font-family: 'BigNoodleTitlingRegular';
+    font-size: 20px;
+    margin-left: 86px;
+}
+
+#OPray{ margin-left: 51px;}
+
+#Musicas{
+	margin-top: -523px;
+}
+#Musica1{}
+#MusicComp{
+	
+}
+
+#OQueFalam{
+	margin-left: 80px;
+    margin-top: 220px;
+}
+
+#MusCompTwit{
+	margin-top: -24px;
+}
+#MusCompFace{
+	margin-left: 24px;
+    margin-top: -22px;
+}
+#MusCompPlay{}
+
+
+#Musica2{}
+
+
+#Musica3{}
+
+
+#Musica4{}
+
+
+#Musica5{}
+
+
+#Musica6{}
+
+
+#Musica7{}
+
+
+#Musica8{}
+
+
+#Musica9{}
+
+
+
+#CompartilheAlbum{}
+#TitCompartilhar{
+	color: #B25859;
+    font-size: 35px;
+}
+#CompFace{
+	margin-left: 27px;
+    width: 156px;
+}
+#CompTwit{
+	 margin-left: 190px;
+    margin-top: -53px;
+}
+
+#Download{}
+#TitDownload{
+	margin-left: 124px;
+    margin-top: 58px;
+}
+#DownFace{
+	 margin-left: 63px;
+    margin-top: 11px;
+}
+#DownOu{
+	margin-left: 481px;
+    margin-top: -60px;
+}
+#DownTweet{
+	margin-left: 509px;
+    margin-top: -60px;
+}
+ 
+#PapeldeParede{
+	margin-left: 42px;
+    margin-top: 36px;
+}
+#TitPapeldeParede{
+	color: #539590;
+	font-size:53px
+}
+#ImgPapeldeParede{}
+#ResolPapeldeParede{
+	color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 12px;
+    margin-top: 7px;
+    text-align: center;
+    width: 328px;
+}
+
+#ResolPapeldeParede a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#ResolPapeldeParede a:hover{
+	text-decoration:underline;
+	color:#539590;
+}
+
+#EncartePtFus{
+	margin-left: 427px;
+    margin-top: -304px;
+}
+
+
+
+
+
+#Fotao{margin-top: 21px;}
+
+
+
+
+#ReleaseFuz{}
+#TextReleaseFuz{
+	color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 12px;
+    margin-left: 56px;
+    margin-top: 26px;
+    width: 493px;
+}
+
+
+
+#ReleaseLogo{
+	margin-left: 579px;
+    margin-top: -352px;
+}
+
+
+
+
+
+#MidiaFuz{}
+
+#MidiaFotos{
+	margin-left: 49px;
+    margin-top: -639px;
+    width: 400px;
+}
+
+#MidiaFotos img{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#TitFotos{color: #539590;
+    font-size: 53px;
+    margin-left: 21px;}
+#ThumbsFots{}
+
+
+#MakingofBot{margin-left: 199px;
+    margin-top: -90px;}
+
+
+#MidiaQuemEscuta{
+	margin-left: 683px;
+    margin-top: -402px;
+}
+#TitQuem{
+	color: #539590;
+    font-size: 53px;
+    margin-right: 18px;
+    text-align: right;	
+}
+#ThumbsQuem{
+	margin-right: 18px;
+    text-align: right;
+}
+
+#ThumbsQuem img{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+
+#ImgMidiaFotAsas{margin-left: 70px;}
+
+
+
+#Agenda{
+	margin-top: 250px;
+	
+	
+}
+
+#AAgenda{
+	 margin-left: 42px;
+    margin-top: -575px;
+}
+
+#FotAlice{
+	 margin-left: 398px;
+    margin-top: -61px;
+}
+
+#ProxShows{}
+#TitProxShows{color: #539590;
+	font-size:53px}
+
+#AntShows{}
+#TitAntShows{color: #539590;
+	font-size:53px}
+
+#Data{color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 12px;}
+#BotFace{}
+
+
+
+
+#ContatosFuz{
+	margin-left: 0;
+    margin-top: 76px;
+    text-align: center;
+}
+#ContatosPanda{
+	color: #ffffff;
+	font-size:20px
+}
+#ContResdesFuz{
+	color: #539590;
+	font-size:20px
+} 
+
+
+
+
+#RodapeFuz{margin-left: -367px;}
+#FotoRodFuz{}
+#LhamaLog{margin-left: 385px;
+    margin-top: -71px;
+    text-align: center;}
+	
+#ClipeAlice{
+	margin-bottom: 15px;
+}
+
+#OVideo{
+	margin-left: 158px;
+    margin-top: 112px;
+    position: absolute;
+}
+
+#FundoVideo{
+	margin-left: -129px;
+}
+
+#Videos{
+	 margin-bottom: -246px;
+    margin-left: 40px;
+    margin-top: 49px;
+}
