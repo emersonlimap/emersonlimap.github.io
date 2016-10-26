@@ -35,17 +35,21 @@
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function() {
-
-	$("#jquery_jplayer_1").jPlayer({
+	
+	prepareJplayer("#jquery_jplayer_1", "/musicas/mus1.mp3");
+});
+	
+function prepareJplayer(divName, musicPath) {
+	$(divName).jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-			mp3: "/musicas/mus2.mp3"
+			mp3: musicPath
 		});
 	},
 	swfPath: "/js",
 	supplied: "mp3"
-	});
-});
+	});	
+}
 
 </script>
 
