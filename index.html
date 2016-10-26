@@ -36,22 +36,26 @@
 //<![CDATA[
 $(document).ready(function() {
 	
-	prepareJplayer("#jquery_jplayer_1", "/musicas/mus1.mp3");
-	prepareJplayer("#jquery_jplayer_2", "/musicas/mus2.mp3");
-});
-	
-function prepareJplayer(divName, musicPath) {
-	$(divName).jPlayer({
+	$("#jquery_jplayer_1").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-			mp3: musicPath
+			mp3: "/musicas/mus1.mp3"
 		});
 	},
 	swfPath: "/js",
 	supplied: "mp3"
-	});	
-}
-
+	});
+	
+	$("#jquery_jplayer_2").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+			mp3: "/musicas/mus2.mp3"
+		});
+	},
+	swfPath: "/js",
+	supplied: "mp3"
+	});
+});
 </script>
 
 <script type="text/javascript">
