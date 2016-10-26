@@ -35,16 +35,30 @@
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function(){
-	$("#jquery_jplayer_1").jPlayer({
+	
+	prepareJPlayer("#jquery_jplayer_1","/musicas/mus1.mp3");
+	prepareJPlayer("#jquery_jplayer_2","/musicas/mus2.mp3");
+	prepareJPlayer("#jquery_jplayer_3","/musicas/mus3.mp3");
+	prepareJPlayer("#jquery_jplayer_4","/musicas/mus4.mp3");
+	prepareJPlayer("#jquery_jplayer_5","/musicas/mus5.mp3");
+	prepareJPlayer("#jquery_jplayer_6","/musicas/mus6.mp3");
+	prepareJPlayer("#jquery_jplayer_7","/musicas/mus7.mp3");
+	prepareJPlayer("#jquery_jplayer_8","/musicas/mus8.mp3");
+	prepareJPlayer("#jquery_jplayer_9","/musicas/mus9.mp3");
+	
+});
+
+function prepareJPlayer(divName, musicName) {
+		$(divName).jPlayer({
 		ready: function () {
     			$(this).jPlayer("setMedia", {
-     			mp3: "/musicas/mus1.mp3"
+     			mp3: musicName
     		});
    		},
    		swfPath: "/js",
  		supplied: "mp3"
 	});
-});
+}
 </script>
 
 <script type="text/javascript">
@@ -88,20 +102,29 @@ $(document).ready(function(){
         </div>
         <div id="ArtePontodeFusao"><img src="img/arteprincipal.png" /></div>
         <div id="Musicas">
-        	<div id="Musica1">
-			<div id="jquery_jplayer_1" class="jp-jplayer"></div>
-			<div id="jp_container_1">
-				<a href="#" class="jp-play">Play</a>
-				<a href="#" class="jp-pause">Pause</a>
-				
-                                <div id="NameMus">INTRO</div>
+
+		<div id="Musica1">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                        <div class="jp-audio">
+                            <div class="jp-type-single">
+                                <div id="jp_interface_1" class="jp-interface">
+                                     <div id="OPray"> 
+                                   <ul class="jp-controls">
+                                        <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+                                    </ul>
+                                    </div>
+                                    <div id="NameMus">INTRO</div>
                                     
-                                <div id="MusicComp">
+                                    <div id="MusicComp">
                                 	<div id="MusCompTwit"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fsoundcloud.com%2Fyou%2Ftracks&amp;text=FUZI+-+Intro+by+@FuziRock+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro" target="_blank"><img src="img/mus_tweet.png" /></a></div>
                                         <div id="MusCompFace"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Ffuzirock%2Ffuzi-intro" target="_blank"><img src="img/musface.png" /></a></div>
-                                </div>				
-			</div>    	
-            	</div>
+                                    </div>
+                                    
+                        	</div>
+                    	</div>
+                	</div>
+           	</div>			
 		
             	<div id="Musica2">
                 <div id="jquery_jplayer_2" class="jp-jplayer"></div>
@@ -125,10 +148,7 @@ $(document).ready(function(){
                         	</div>
                     	</div>
                 	</div>
-                
-                
-                
-            </div>
+           	 </div>
             <div id="Musica3">
             
             
