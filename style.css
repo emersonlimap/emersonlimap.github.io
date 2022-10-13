@@ -1377,6 +1377,10 @@ header {
   transition: opacity .5s ease;
 }
 
+.post-text a.link-orange {
+  color: #f07d00;	
+}
+
 .post-thumb .dugem-overlay {
   opacity: 0.7;
 }
