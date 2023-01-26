@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-    $email_to = "desmonlatandos@gmail.com"; // change with your email
+    $email_to = "contact@clickrealestatemedia.com";
     $name     = $_POST['name'];  
     $email    = $_POST['email'];
     $subject   = $_POST['subject'];
@@ -11,9 +11,9 @@ session_start();
     $headers .= "Reply-To: $email\r\n";
     
     if(mail($email_to, $subject, $message, $headers)){
-        echo "success";       
+        echo "Thank you! Our team will contact you soon.";       
     } 
     else{
-        echo "failed";     
+        echo "Ops! Something get wrong. Please consider calling or text us : +1 XXX-XXX-XXX";     
     }  
 ?>
