@@ -50,7 +50,7 @@
 
 /* general */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Direction', sans-serif;
     font-size: 1.45rem;
     line-height: 1.9em;
     font-style: normal;
@@ -769,7 +769,7 @@ header.show {
     padding: 10px 0px 10px 20px;
     color: #000000;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Direction', sans-serif;
     font-weight: bold;
     letter-spacing: .3px;
     line-height: 80px;
