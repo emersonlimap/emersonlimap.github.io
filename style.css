@@ -67,7 +67,7 @@ body {
   word-wrap: break-word;
   -ms-word-wrap: break-word;
   font-size: 18px;
-  background: #0b0b0b;
+  background: #993399;
   color: #aaa;
   margin: 0;
   line-height: 1.618;
@@ -598,7 +598,7 @@ header {
   position: relative;
   left: 0;
   right: 0;
-  background-color: #0b0b0b;
+  background-color: #993399;
   top: 0;
   -webkit-transition: revert;
   -moz-transition: all 0.5s ease 0s;
@@ -830,11 +830,11 @@ header {
 }
 
 .header-alt.header-expanded {
-  background-color: #0b0b0b;
+  background-color: #993399;
 }
 
 .header-alt.header-expanded .main-nav {
-  background-color: #0b0b0b;
+  background-color: #993399;
 }
 
 .header-clear {
@@ -898,14 +898,14 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #0b0b0b;
+  background: #993399;
   width: 100%;
   height: 100%;
   z-index: 2;
 }
 
 .video-background .background-overlay {
-  background-color: #0b0b0b;
+  background-color: #993399;
 }
 
 .main-video video {
@@ -961,7 +961,7 @@ header {
 .global-block {
   padding: 110px 0px 27px 0px;
   position: relative;
-  background-color: #0b0b0b;
+  background-color: #993399;
 }
 
 .global-block:before {
@@ -972,7 +972,7 @@ header {
   height: 53px;
   top: -193px;
   left: -100px;
-  border-bottom: 140px solid #0b0b0b;
+  border-bottom: 140px solid #993399;
   border-left: 2000px solid transparent;
 }
 
@@ -1111,7 +1111,7 @@ header {
   height: 53px;
   top: -1px;
   z-index: 2;
-  border-top: 175px solid #0b0b0b;
+  border-top: 175px solid #993399;
   border-right: 2500px solid transparent;
 }
 
@@ -1244,7 +1244,7 @@ header {
 /*Blog Post*/
 .blog-loop {
   padding: 110px 0px 10px 0px;
-  background-color: #0b0b0b;
+  background-color: #993399;
   position: relative;
 }
 
@@ -1420,7 +1420,7 @@ header {
   height: 53px;
   top: -193px;
   left: -100px;
-  border-bottom: 140px solid #0b0b0b;
+  border-bottom: 140px solid #993399;
   border-left: 2000px solid transparent;
 }
 
@@ -1460,7 +1460,7 @@ header {
   height: 53px;
   top: -1px;
   z-index: 2;
-  border-top: 175px solid #0b0b0b;
+  border-top: 175px solid #993399;
   border-right: 2500px solid transparent;
 }
 
@@ -1658,7 +1658,7 @@ header {
   height: 53px;
   top: -193px;
   left: -100px;
-  border-bottom: 140px solid #0b0b0b;
+  border-bottom: 140px solid #993399;
   border-left: 2000px solid transparent;
 }
 
@@ -1856,7 +1856,7 @@ header {
   width: 100%;
   height: 10px;
   top: -109px;
-  border-bottom: 100px solid #0b0b0b;
+  border-bottom: 100px solid #993399;
   border-left: 2000px solid transparent;
 }
 
@@ -1880,7 +1880,7 @@ header {
   height: 53px;
   top: -1px;
   z-index: 2;
-  border-top: 75px solid #0b0b0b;
+  border-top: 75px solid #993399;
   border-right: 2500px solid transparent;
 }
 
@@ -2631,7 +2631,7 @@ h2.post-title.entry-title a:hover {
 }
 
 .single .blog-single .next-prev-post .inner-nav {
-  background-color: #0b0b0b;
+  background-color: #993399;
 }
 
 .blog-single .next-prev-post .prev-post a>.the-nav-title,
@@ -2903,7 +2903,7 @@ h2.post-title.entry-title a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background-color: #0b0b0b;
+  background-color: #993399;
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-position: center center;
