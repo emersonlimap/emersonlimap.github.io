@@ -209,6 +209,7 @@
 
   .table-events .dugem-text {
     padding: 0 25px;
+    color: #fff;
   }
 
   .page-blog {
@@ -223,6 +224,10 @@
     line-height: 1.2em;
     color: #fff;
     margin-top: 0px;
+  }
+
+  .global-title p {
+    color: #fff!important;
   }
 
   .column {
@@ -608,11 +613,11 @@
     position: relative;
 }
 .waiting-title .the-title h3 {
-        font-size: 40px;
+    font-size: 40px;
     font-size: 4rem;
-
     margin-bottom: 20px;
 }
+
 .testimonial-wrap .swipper-button {
     display: none;
 }

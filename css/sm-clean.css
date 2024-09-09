@@ -176,13 +176,13 @@
     overflow: hidden;
     border-width: 9px;
     border-style: dashed dashed solid dashed;
-    border-color: transparent transparent #bbbbbb transparent;
+    border-color: transparent transparent #ffffff transparent;
   }
   .sm-clean > li > ul:after {
     top: -16px;
     left: 31px;
     border-width: 8px;
-    border-color: transparent transparent white transparent;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
   }
   .sm-clean ul {
     border: 1px solid #bbbbbb;
