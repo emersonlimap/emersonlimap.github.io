@@ -68,10 +68,10 @@ body {
   -ms-word-wrap: break-word;
   font-size: 18px;
   background: #993399;
-  color: #aaa;
+  color: #FFFFFF;
   margin: 0;
   line-height: 1.618;
-  font-family: 'Direction';
+  font-family: 'Myriad Pro Regular';
   font-weight: 200;
 }
 
@@ -1670,7 +1670,7 @@ header {
   height: 40px;
   margin-bottom: 20px;
   padding: 5px 14px;
-  border: 1px solid #aaa;
+  border: 1px solid #FFFFFF;
   border-top: 0;
   border-right: 0;
   -webkit-transition: all .2s ease-in-out;
@@ -1685,7 +1685,7 @@ header {
   width: 95%;
   max-width: 95%;
   margin-bottom: 15px;
-  border: 1px solid #aaa;
+  border: 1px solid #FFFFFF;
   outline: none;
   padding: 5px 14px;
   border-top: 0;
@@ -2015,7 +2015,7 @@ header {
   height: 40px;
   margin-bottom: 20px;
   padding: 5px 14px;
-  border: 1px solid #aaa;
+  border: 1px solid #FFFFFF;
   border-top: 0;
   border-right: 0;
   -webkit-transition: all .2s ease-in-out;
@@ -2045,7 +2045,7 @@ header {
   width: 95%;
   max-width: 95%;
   margin-bottom: 15px;
-  border: 1px solid #aaa;
+  border: 1px solid #FFFFFF;
   outline: none;
   padding: 5px 14px;
   border-top: 0;
@@ -2103,7 +2103,7 @@ header {
   margin-bottom: 20px;
   padding: 5px 20px;
   outline: none;
-  border: 2px solid #aaa;
+  border: 2px solid #FFFFFF;
   float: left;
   position: relative;
   top: 25px;

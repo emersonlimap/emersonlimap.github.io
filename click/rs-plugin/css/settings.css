@@ -1755,7 +1755,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 												transition: width 0.3s, background-color 0.3s, opacity 0.3s;
 												backface-visibility: hidden;
 }
-.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; color:#aaa; font-size:25px; margin-top: -12px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s }
+.tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; color:#FFFFFF; font-size:25px; margin-top: -12px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s }
 .tp-rightarrow.preview2:after				{	content: '\e81e';  right:18px}
 .tp-leftarrow.preview2:after				{	content: '\e81f';  left:18px}
 
@@ -1876,7 +1876,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
 /* NAVIGATION PREVIEW 3 */
 .tparrows.preview3 							{	width:70px; height:70px; background:#fff; background:rgba(255,255,255,1); -webkit-transform-style: flat}
-.tparrows.preview3:after					{	position:absolute;  line-height: 70px;text-align: center; font-family: "revicons"; color:#aaa; font-size:30px; top:0px;left:0px;;background:#fff; z-index:100; width:70px;height:70px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s}
+.tparrows.preview3:after					{	position:absolute;  line-height: 70px;text-align: center; font-family: "revicons"; color:#FFFFFF; font-size:30px; top:0px;left:0px;;background:#fff; z-index:100; width:70px;height:70px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s}
 .tparrows.preview3:hover:after					{	color:#000}
 .tp-rightarrow.preview3:after				{	content: '\e825';  }
 .tp-leftarrow.preview3:after				{	content: '\e824';  }
